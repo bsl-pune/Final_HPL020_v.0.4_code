@@ -1,0 +1,641 @@
+
+C:\Users\KISHOR~1.MAN\AppData\Local\Temp\arduino_build_351517/HPL020_v.0.4_EEPROM_Code.ino.elf:     file format elf32-avr
+
+
+Disassembly of section .text:
+
+00000200 <__vectors>:
+__vectors():
+../../../../crt1/gcrt1.S:61
+ 200:	4f c0       	rjmp	.+158    	; 0x2a0 <__ctors_end>
+ 202:	00 00       	nop
+../../../../crt1/gcrt1.S:67
+ 204:	5d c0       	rjmp	.+186    	; 0x2c0 <__bad_interrupt>
+ 206:	00 00       	nop
+../../../../crt1/gcrt1.S:68
+ 208:	5b c0       	rjmp	.+182    	; 0x2c0 <__bad_interrupt>
+ 20a:	00 00       	nop
+../../../../crt1/gcrt1.S:69
+ 20c:	59 c0       	rjmp	.+178    	; 0x2c0 <__bad_interrupt>
+ 20e:	00 00       	nop
+../../../../crt1/gcrt1.S:70
+ 210:	57 c0       	rjmp	.+174    	; 0x2c0 <__bad_interrupt>
+ 212:	00 00       	nop
+../../../../crt1/gcrt1.S:71
+ 214:	55 c0       	rjmp	.+170    	; 0x2c0 <__bad_interrupt>
+ 216:	00 00       	nop
+../../../../crt1/gcrt1.S:72
+ 218:	53 c0       	rjmp	.+166    	; 0x2c0 <__bad_interrupt>
+ 21a:	00 00       	nop
+../../../../crt1/gcrt1.S:73
+ 21c:	51 c0       	rjmp	.+162    	; 0x2c0 <__bad_interrupt>
+ 21e:	00 00       	nop
+../../../../crt1/gcrt1.S:74
+ 220:	4f c0       	rjmp	.+158    	; 0x2c0 <__bad_interrupt>
+ 222:	00 00       	nop
+../../../../crt1/gcrt1.S:75
+ 224:	4d c0       	rjmp	.+154    	; 0x2c0 <__bad_interrupt>
+ 226:	00 00       	nop
+../../../../crt1/gcrt1.S:76
+ 228:	4b c0       	rjmp	.+150    	; 0x2c0 <__bad_interrupt>
+ 22a:	00 00       	nop
+../../../../crt1/gcrt1.S:77
+ 22c:	49 c0       	rjmp	.+146    	; 0x2c0 <__bad_interrupt>
+ 22e:	00 00       	nop
+../../../../crt1/gcrt1.S:78
+ 230:	47 c0       	rjmp	.+142    	; 0x2c0 <__bad_interrupt>
+ 232:	00 00       	nop
+../../../../crt1/gcrt1.S:79
+ 234:	45 c0       	rjmp	.+138    	; 0x2c0 <__bad_interrupt>
+ 236:	00 00       	nop
+../../../../crt1/gcrt1.S:80
+ 238:	43 c0       	rjmp	.+134    	; 0x2c0 <__bad_interrupt>
+ 23a:	00 00       	nop
+../../../../crt1/gcrt1.S:81
+ 23c:	41 c0       	rjmp	.+130    	; 0x2c0 <__bad_interrupt>
+ 23e:	00 00       	nop
+../../../../crt1/gcrt1.S:82
+ 240:	3f c0       	rjmp	.+126    	; 0x2c0 <__bad_interrupt>
+ 242:	00 00       	nop
+../../../../crt1/gcrt1.S:83
+ 244:	3d c0       	rjmp	.+122    	; 0x2c0 <__bad_interrupt>
+ 246:	00 00       	nop
+../../../../crt1/gcrt1.S:84
+ 248:	3b c0       	rjmp	.+118    	; 0x2c0 <__bad_interrupt>
+ 24a:	00 00       	nop
+../../../../crt1/gcrt1.S:85
+ 24c:	39 c0       	rjmp	.+114    	; 0x2c0 <__bad_interrupt>
+ 24e:	00 00       	nop
+../../../../crt1/gcrt1.S:86
+ 250:	37 c0       	rjmp	.+110    	; 0x2c0 <__bad_interrupt>
+ 252:	00 00       	nop
+../../../../crt1/gcrt1.S:87
+ 254:	35 c0       	rjmp	.+106    	; 0x2c0 <__bad_interrupt>
+ 256:	00 00       	nop
+../../../../crt1/gcrt1.S:88
+ 258:	33 c0       	rjmp	.+102    	; 0x2c0 <__bad_interrupt>
+ 25a:	00 00       	nop
+../../../../crt1/gcrt1.S:89
+ 25c:	31 c0       	rjmp	.+98     	; 0x2c0 <__bad_interrupt>
+ 25e:	00 00       	nop
+../../../../crt1/gcrt1.S:90
+ 260:	2f c0       	rjmp	.+94     	; 0x2c0 <__bad_interrupt>
+ 262:	00 00       	nop
+../../../../crt1/gcrt1.S:91
+ 264:	3e c0       	rjmp	.+124    	; 0x2e2 <__vector_25>
+ 266:	00 00       	nop
+../../../../crt1/gcrt1.S:92
+ 268:	2b c0       	rjmp	.+86     	; 0x2c0 <__bad_interrupt>
+ 26a:	00 00       	nop
+../../../../crt1/gcrt1.S:93
+ 26c:	29 c0       	rjmp	.+82     	; 0x2c0 <__bad_interrupt>
+ 26e:	00 00       	nop
+../../../../crt1/gcrt1.S:94
+ 270:	27 c0       	rjmp	.+78     	; 0x2c0 <__bad_interrupt>
+ 272:	00 00       	nop
+../../../../crt1/gcrt1.S:95
+ 274:	25 c0       	rjmp	.+74     	; 0x2c0 <__bad_interrupt>
+ 276:	00 00       	nop
+../../../../crt1/gcrt1.S:96
+ 278:	23 c0       	rjmp	.+70     	; 0x2c0 <__bad_interrupt>
+ 27a:	00 00       	nop
+../../../../crt1/gcrt1.S:97
+ 27c:	21 c0       	rjmp	.+66     	; 0x2c0 <__bad_interrupt>
+ 27e:	00 00       	nop
+../../../../crt1/gcrt1.S:98
+ 280:	1f c0       	rjmp	.+62     	; 0x2c0 <__bad_interrupt>
+ 282:	00 00       	nop
+../../../../crt1/gcrt1.S:99
+ 284:	1d c0       	rjmp	.+58     	; 0x2c0 <__bad_interrupt>
+ 286:	00 00       	nop
+../../../../crt1/gcrt1.S:100
+ 288:	1b c0       	rjmp	.+54     	; 0x2c0 <__bad_interrupt>
+ 28a:	00 00       	nop
+../../../../crt1/gcrt1.S:101
+ 28c:	19 c0       	rjmp	.+50     	; 0x2c0 <__bad_interrupt>
+ 28e:	00 00       	nop
+../../../../crt1/gcrt1.S:102
+ 290:	17 c0       	rjmp	.+46     	; 0x2c0 <__bad_interrupt>
+ 292:	00 00       	nop
+../../../../crt1/gcrt1.S:103
+ 294:	15 c0       	rjmp	.+42     	; 0x2c0 <__bad_interrupt>
+ 296:	00 00       	nop
+../../../../crt1/gcrt1.S:104
+ 298:	13 c0       	rjmp	.+38     	; 0x2c0 <__bad_interrupt>
+ 29a:	00 00       	nop
+../../../../crt1/gcrt1.S:105
+ 29c:	11 c0       	rjmp	.+34     	; 0x2c0 <__bad_interrupt>
+	...
+
+000002a0 <__ctors_end>:
+__trampolines_start():
+../../../../crt1/gcrt1.S:230
+ 2a0:	11 24       	eor	r1, r1
+../../../../crt1/gcrt1.S:231
+ 2a2:	1f be       	out	0x3f, r1	; 63
+../../../../crt1/gcrt1.S:232
+ 2a4:	cf ef       	ldi	r28, 0xFF	; 255
+../../../../crt1/gcrt1.S:234
+ 2a6:	cd bf       	out	0x3d, r28	; 61
+../../../../crt1/gcrt1.S:236
+ 2a8:	df e3       	ldi	r29, 0x3F	; 63
+../../../../crt1/gcrt1.S:237
+ 2aa:	de bf       	out	0x3e, r29	; 62
+
+000002ac <__do_clear_bss>:
+__do_clear_bss():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2441
+ 2ac:	28 e2       	ldi	r18, 0x28	; 40
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2442
+ 2ae:	a0 e0       	ldi	r26, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2443
+ 2b0:	b8 e2       	ldi	r27, 0x28	; 40
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2444
+ 2b2:	01 c0       	rjmp	.+2      	; 0x2b6 <.do_clear_bss_start>
+
+000002b4 <.do_clear_bss_loop>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2446
+ 2b4:	1d 92       	st	X+, r1
+
+000002b6 <.do_clear_bss_start>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2448
+ 2b6:	a4 30       	cpi	r26, 0x04	; 4
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2449
+ 2b8:	b2 07       	cpc	r27, r18
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2450
+ 2ba:	e1 f7       	brne	.-8      	; 0x2b4 <.do_clear_bss_loop>
+.do_clear_bss_start():
+../../../../crt1/gcrt1.S:314
+ 2bc:	3a d0       	rcall	.+116    	; 0x332 <main>
+../../../../crt1/gcrt1.S:315
+ 2be:	c6 c0       	rjmp	.+396    	; 0x44c <_exit>
+
+000002c0 <__bad_interrupt>:
+__vector_38():
+ 2c0:	9f cf       	rjmp	.-194    	; 0x200 <__vectors>
+
+000002c2 <EEPROMClass::write(int, unsigned char) [clone .isra.0] [clone .constprop.1]>:
+_ZN11EEPROMClass5writeEih.isra.0.constprop.1():
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\libraries\EEPROM\src/EEPROM.h:37
+
+#define nvm_read_byte(idx) *(uint8_t *)((idx & 0xFF) | ((idx & 0x100) ? USER_SIGNATURES_START : EEPROM_START))
+
+static void nvm_write_byte(uint16_t idx, uint8_t dat)
+{
+  *(uint8_t *)((idx & 0xFF) | ((idx & 0x100) ? USER_SIGNATURES_START : EEPROM_START)) = dat;
+ 2c2:	94 61       	ori	r25, 0x14	; 20
+ 2c4:	fc 01       	movw	r30, r24
+ 2c6:	10 82       	st	Z, r1
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\libraries\EEPROM\src/EEPROM.h:38
+  uint8_t oldSREG = SREG;
+ 2c8:	8f b7       	in	r24, 0x3f	; 63
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\libraries\EEPROM\src/EEPROM.h:39
+  cli();
+ 2ca:	f8 94       	cli
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\libraries\EEPROM\src/EEPROM.h:40
+  _PROTECTED_WRITE_SPM(NVMCTRL.CTRLA, NVMCTRL_CMD_PAGEERASEWRITE_gc);
+ 2cc:	9d e9       	ldi	r25, 0x9D	; 157
+ 2ce:	23 e0       	ldi	r18, 0x03	; 3
+ 2d0:	94 bf       	out	0x34, r25	; 52
+ 2d2:	20 93 00 10 	sts	0x1000, r18	; 0x801000 <__TEXT_REGION_LENGTH__+0x7f5000>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\libraries\EEPROM\src/EEPROM.h:41
+  SREG = oldSREG;
+ 2d6:	8f bf       	out	0x3f, r24	; 63
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\libraries\EEPROM\src/EEPROM.h:42
+  while (NVMCTRL.STATUS & NVMCTRL_EEBUSY_bm)
+ 2d8:	80 91 02 10 	lds	r24, 0x1002	; 0x801002 <__TEXT_REGION_LENGTH__+0x7f5002>
+ 2dc:	81 fd       	sbrc	r24, 1
+ 2de:	fc cf       	rjmp	.-8      	; 0x2d8 <EEPROMClass::write(int, unsigned char) [clone .isra.0] [clone .constprop.1]+0x16>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\libraries\EEPROM\src/EEPROM.h:131
+struct EEPROMClass
+{
+  //Basic user access methods.
+  EERef operator[](const int idx) { return idx; }
+  uint8_t read(int idx) { return EERef(idx); }
+  void write(int idx, uint8_t val) { (EERef(idx)) = val; }
+ 2e0:	08 95       	ret
+
+000002e2 <__vector_25>:
+__vector_25():
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:74
+#elif defined(MILLIS_USE_TIMERB2)
+ISR(TCB2_INT_vect)
+#else // fallback or defined(MILLIS_USE_TIMERB3)
+ISR(TCB3_INT_vect)
+#endif
+{
+ 2e2:	1f 92       	push	r1
+ 2e4:	0f 92       	push	r0
+ 2e6:	0f b6       	in	r0, 0x3f	; 63
+ 2e8:	0f 92       	push	r0
+ 2ea:	11 24       	eor	r1, r1
+ 2ec:	8f 93       	push	r24
+ 2ee:	9f 93       	push	r25
+ 2f0:	af 93       	push	r26
+ 2f2:	bf 93       	push	r27
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:75
+  timer_millis++;
+ 2f4:	80 91 00 28 	lds	r24, 0x2800	; 0x802800 <__DATA_REGION_ORIGIN__>
+ 2f8:	90 91 01 28 	lds	r25, 0x2801	; 0x802801 <__DATA_REGION_ORIGIN__+0x1>
+ 2fc:	a0 91 02 28 	lds	r26, 0x2802	; 0x802802 <__DATA_REGION_ORIGIN__+0x2>
+ 300:	b0 91 03 28 	lds	r27, 0x2803	; 0x802803 <__DATA_REGION_ORIGIN__+0x3>
+ 304:	01 96       	adiw	r24, 0x01	; 1
+ 306:	a1 1d       	adc	r26, r1
+ 308:	b1 1d       	adc	r27, r1
+ 30a:	80 93 00 28 	sts	0x2800, r24	; 0x802800 <__DATA_REGION_ORIGIN__>
+ 30e:	90 93 01 28 	sts	0x2801, r25	; 0x802801 <__DATA_REGION_ORIGIN__+0x1>
+ 312:	a0 93 02 28 	sts	0x2802, r26	; 0x802802 <__DATA_REGION_ORIGIN__+0x2>
+ 316:	b0 93 03 28 	sts	0x2803, r27	; 0x802803 <__DATA_REGION_ORIGIN__+0x3>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:78
+
+  /* Clear flag */
+  _timer->INTFLAGS = TCB_CAPT_bm;
+ 31a:	81 e0       	ldi	r24, 0x01	; 1
+ 31c:	80 93 a6 0a 	sts	0x0AA6, r24	; 0x800aa6 <__TEXT_REGION_LENGTH__+0x7f4aa6>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:79
+}
+ 320:	bf 91       	pop	r27
+ 322:	af 91       	pop	r26
+ 324:	9f 91       	pop	r25
+ 326:	8f 91       	pop	r24
+ 328:	0f 90       	pop	r0
+ 32a:	0f be       	out	0x3f, r0	; 63
+ 32c:	0f 90       	pop	r0
+ 32e:	1f 90       	pop	r1
+ 330:	18 95       	reti
+
+00000332 <main>:
+main():
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:355
+#if (F_CPU == 20000000L)
+  /* No division on clock */
+  _PROTECTED_WRITE(CLKCTRL_MCLKCTRLB, 0x00);
+#elif (F_CPU == 16000000L)
+  /* No division on clock */
+  _PROTECTED_WRITE(CLKCTRL_MCLKCTRLB, 0x00);
+ 332:	88 ed       	ldi	r24, 0xD8	; 216
+ 334:	90 e0       	ldi	r25, 0x00	; 0
+ 336:	84 bf       	out	0x34, r24	; 52
+ 338:	90 93 61 00 	sts	0x0061, r25	; 0x800061 <__TEXT_REGION_LENGTH__+0x7f4061>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:388
+  /* ADC clock between 50-200 kHz */
+
+#if (F_CPU >= 20000000L) // 20 MHz / 128 = 156.250 kHz
+  ADC0.CTRLC |= ADC_PRESC_DIV128_gc;
+#elif (F_CPU >= 16000000L) // 16 MHz / 128 = 125 kHz
+  ADC0.CTRLC |= ADC_PRESC_DIV128_gc;
+ 33c:	80 91 02 06 	lds	r24, 0x0602	; 0x800602 <__TEXT_REGION_LENGTH__+0x7f4602>
+ 340:	86 60       	ori	r24, 0x06	; 6
+ 342:	80 93 02 06 	sts	0x0602, r24	; 0x800602 <__TEXT_REGION_LENGTH__+0x7f4602>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:402
+#else                      // 128 kHz / 2 = 64 kHz -> This is the closest you can get, the prescaler is 2
+  ADC0.CTRLC |= ADC_PRESC_DIV2_gc;
+#endif
+
+  /* Enable ADC */
+  ADC0.CTRLA |= ADC_ENABLE_bm;
+ 346:	80 91 00 06 	lds	r24, 0x0600	; 0x800600 <__TEXT_REGION_LENGTH__+0x7f4600>
+ 34a:	81 60       	ori	r24, 0x01	; 1
+ 34c:	80 93 00 06 	sts	0x0600, r24	; 0x800600 <__TEXT_REGION_LENGTH__+0x7f4600>
+analogReference():
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring_analog.c:35
+{
+  switch (mode)
+  {
+    case EXTERNAL:
+    case VDD:
+      ADC0.CTRLC = (ADC0.CTRLC & ~(ADC_REFSEL_gm)) | mode | ADC_SAMPCAP_bm; // Per datasheet, recommended SAMPCAP=1 at ref > 1v - we don't *KNOW* the external reference will be >1v, but it's probably more likely...
+ 350:	80 91 02 06 	lds	r24, 0x0602	; 0x800602 <__TEXT_REGION_LENGTH__+0x7f4602>
+ 354:	8f 7c       	andi	r24, 0xCF	; 207
+ 356:	80 65       	ori	r24, 0x50	; 80
+ 358:	80 93 02 06 	sts	0x0602, r24	; 0x800602 <__TEXT_REGION_LENGTH__+0x7f4602>
+main():
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:407
+  analogReference(VDD);
+
+#endif
+
+  PORTMUX.USARTROUTEA = 0;
+ 35c:	10 92 e2 05 	sts	0x05E2, r1	; 0x8005e2 <__TEXT_REGION_LENGTH__+0x7f45e2>
+setup_timers():
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:446
+void setup_timers()
+{
+  //  TYPE A TIMER
+
+  // PORTMUX setting for TCA (defined in pins_arduino.h)
+  PORTMUX.TCAROUTEA = TCA0_PINS;
+ 360:	82 e0       	ldi	r24, 0x02	; 2
+ 362:	80 93 e4 05 	sts	0x05E4, r24	; 0x8005e4 <__TEXT_REGION_LENGTH__+0x7f45e4>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:449
+
+  // Enable split mode before anything else
+  TCA0.SPLIT.CTRLD = TCA_SINGLE_SPLITM_bm;
+ 366:	81 e0       	ldi	r24, 0x01	; 1
+ 368:	80 93 03 0a 	sts	0x0A03, r24	; 0x800a03 <__TEXT_REGION_LENGTH__+0x7f4a03>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:453
+
+  // Period setting, two 8 bit registers
+  TCA0.SPLIT.LPER =
+      TCA0.SPLIT.HPER = PWM_TIMER_PERIOD;
+ 36c:	8e ef       	ldi	r24, 0xFE	; 254
+ 36e:	80 93 27 0a 	sts	0x0A27, r24	; 0x800a27 <__TEXT_REGION_LENGTH__+0x7f4a27>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:452
+
+  // Enable split mode before anything else
+  TCA0.SPLIT.CTRLD = TCA_SINGLE_SPLITM_bm;
+
+  // Period setting, two 8 bit registers
+  TCA0.SPLIT.LPER =
+ 372:	80 93 26 0a 	sts	0x0A26, r24	; 0x800a26 <__TEXT_REGION_LENGTH__+0x7f4a26>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:461
+  TCA0.SPLIT.LCMP0 =
+      TCA0.SPLIT.LCMP1 =
+          TCA0.SPLIT.LCMP2 =
+              TCA0.SPLIT.HCMP0 =
+                  TCA0.SPLIT.HCMP1 =
+                      TCA0.SPLIT.HCMP2 = PWM_TIMER_COMPARE;
+ 376:	80 e8       	ldi	r24, 0x80	; 128
+ 378:	80 93 2d 0a 	sts	0x0A2D, r24	; 0x800a2d <__TEXT_REGION_LENGTH__+0x7f4a2d>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:460
+  // Default duty 50%, will re-assign in analogWrite()
+  TCA0.SPLIT.LCMP0 =
+      TCA0.SPLIT.LCMP1 =
+          TCA0.SPLIT.LCMP2 =
+              TCA0.SPLIT.HCMP0 =
+                  TCA0.SPLIT.HCMP1 =
+ 37c:	80 93 2b 0a 	sts	0x0A2B, r24	; 0x800a2b <__TEXT_REGION_LENGTH__+0x7f4a2b>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:459
+
+  // Default duty 50%, will re-assign in analogWrite()
+  TCA0.SPLIT.LCMP0 =
+      TCA0.SPLIT.LCMP1 =
+          TCA0.SPLIT.LCMP2 =
+              TCA0.SPLIT.HCMP0 =
+ 380:	80 93 29 0a 	sts	0x0A29, r24	; 0x800a29 <__TEXT_REGION_LENGTH__+0x7f4a29>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:458
+      TCA0.SPLIT.HPER = PWM_TIMER_PERIOD;
+
+  // Default duty 50%, will re-assign in analogWrite()
+  TCA0.SPLIT.LCMP0 =
+      TCA0.SPLIT.LCMP1 =
+          TCA0.SPLIT.LCMP2 =
+ 384:	80 93 2c 0a 	sts	0x0A2C, r24	; 0x800a2c <__TEXT_REGION_LENGTH__+0x7f4a2c>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:457
+  TCA0.SPLIT.LPER =
+      TCA0.SPLIT.HPER = PWM_TIMER_PERIOD;
+
+  // Default duty 50%, will re-assign in analogWrite()
+  TCA0.SPLIT.LCMP0 =
+      TCA0.SPLIT.LCMP1 =
+ 388:	80 93 2a 0a 	sts	0x0A2A, r24	; 0x800a2a <__TEXT_REGION_LENGTH__+0x7f4a2a>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:456
+  // Period setting, two 8 bit registers
+  TCA0.SPLIT.LPER =
+      TCA0.SPLIT.HPER = PWM_TIMER_PERIOD;
+
+  // Default duty 50%, will re-assign in analogWrite()
+  TCA0.SPLIT.LCMP0 =
+ 38c:	80 93 28 0a 	sts	0x0A28, r24	; 0x800a28 <__TEXT_REGION_LENGTH__+0x7f4a28>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:474
+#elif F_CPU <= 8000000L
+  // Use DIV16 prescaler (giving 250kHz clocke on 4MHz, 500kHz clock on 8MHz), enable TCA timer
+  TCA0.SPLIT.CTRLA = (TCA_SPLIT_CLKSEL_DIV16_gc) | (TCA_SPLIT_ENABLE_bm);
+#else
+  // Use DIV64 prescaler (giving 250kHz clock on 16MHz), enable TCA timer
+  TCA0.SPLIT.CTRLA = (TCA_SPLIT_CLKSEL_DIV64_gc) | (TCA_SPLIT_ENABLE_bm);
+ 390:	8b e0       	ldi	r24, 0x0B	; 11
+ 392:	80 93 00 0a 	sts	0x0A00, r24	; 0x800a00 <__TEXT_REGION_LENGTH__+0x7f4a00>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:480
+#endif
+
+  //  TYPE B TIMERS
+
+  // Set up routing (defined in pins_arduino.h)
+  PORTMUX.TCBROUTEA = 0
+ 396:	87 e0       	ldi	r24, 0x07	; 7
+ 398:	80 93 e5 05 	sts	0x05E5, r24	; 0x8005e5 <__TEXT_REGION_LENGTH__+0x7f45e5>
+main():
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:496
+                      | TCB3_PINS
+#endif
+      ;
+
+  // Start with TCB0
+  TCB_t *timer_B = (TCB_t *)&TCB0;
+ 39c:	e0 e8       	ldi	r30, 0x80	; 128
+ 39e:	fa e0       	ldi	r31, 0x0A	; 10
+setup_timers():
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:513
+
+  // Timer B Setup loop for TCB[0:end]
+  do
+  {
+    // 8 bit PWM mode, but do not enable output yet, will do in analogWrite()
+    timer_B->CTRLB = (TCB_CNTMODE_PWM8_gc);
+ 3a0:	37 e0       	ldi	r19, 0x07	; 7
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:516
+
+    // Assign 8-bit period
+    timer_B->CCMPL = PWM_TIMER_PERIOD;
+ 3a2:	2e ef       	ldi	r18, 0xFE	; 254
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:519
+
+    // default duty 50%, set when output enabled
+    timer_B->CCMPH = PWM_TIMER_COMPARE;
+ 3a4:	90 e8       	ldi	r25, 0x80	; 128
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:523
+
+    // Use TCA clock (250kHz) and enable
+    // (sync update commented out, might try to synchronize later
+    timer_B->CTRLA = (TCB_CLKSEL_CLKTCA_gc)
+ 3a6:	85 e0       	ldi	r24, 0x05	; 5
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:513
+
+  // Timer B Setup loop for TCB[0:end]
+  do
+  {
+    // 8 bit PWM mode, but do not enable output yet, will do in analogWrite()
+    timer_B->CTRLB = (TCB_CNTMODE_PWM8_gc);
+ 3a8:	31 83       	std	Z+1, r19	; 0x01
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:516
+
+    // Assign 8-bit period
+    timer_B->CCMPL = PWM_TIMER_PERIOD;
+ 3aa:	24 87       	std	Z+12, r18	; 0x0c
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:519
+
+    // default duty 50%, set when output enabled
+    timer_B->CCMPH = PWM_TIMER_COMPARE;
+ 3ac:	95 87       	std	Z+13, r25	; 0x0d
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:523
+
+    // Use TCA clock (250kHz) and enable
+    // (sync update commented out, might try to synchronize later
+    timer_B->CTRLA = (TCB_CLKSEL_CLKTCA_gc)
+ 3ae:	80 83       	st	Z, r24
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:528
+                     //|(TCB_SYNCUPD_bm)
+                     | (TCB_ENABLE_bm);
+
+    // Increment pointer to next TCB instance
+    timer_B++;
+ 3b0:	70 96       	adiw	r30, 0x10	; 16
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:531
+
+    // Stop when pointing to TCB3
+  } while (timer_B <= timer_B_end);
+ 3b2:	e0 3c       	cpi	r30, 0xC0	; 192
+ 3b4:	4a e0       	ldi	r20, 0x0A	; 10
+ 3b6:	f4 07       	cpc	r31, r20
+ 3b8:	b9 f7       	brne	.-18     	; 0x3a8 <main+0x76>
+main():
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:416
+  /********************* TCB for system time tracking **************************/
+
+  // BUG: we can compensate for F_CPU by fine tuning value of TIME_TRACKING_TIMER_COUNT
+
+  /* Select vanilla 16 bit periodic interrupt mode */
+  _timer->CTRLB = TCB_CNTMODE_INT_gc;
+ 3ba:	10 92 a1 0a 	sts	0x0AA1, r1	; 0x800aa1 <__TEXT_REGION_LENGTH__+0x7f4aa1>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:419
+
+  /* TOP value for overflow every N clock cycles */
+  _timer->CCMP = TIME_TRACKING_TIMER_COUNT - 1;
+ 3be:	8f e7       	ldi	r24, 0x7F	; 127
+ 3c0:	9e e3       	ldi	r25, 0x3E	; 62
+ 3c2:	80 93 ac 0a 	sts	0x0AAC, r24	; 0x800aac <__TEXT_REGION_LENGTH__+0x7f4aac>
+ 3c6:	90 93 ad 0a 	sts	0x0AAD, r25	; 0x800aad <__TEXT_REGION_LENGTH__+0x7f4aad>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:422
+
+  /* Enable TCB interrupt */
+  _timer->INTCTRL |= TCB_CAPT_bm;
+ 3ca:	80 91 a5 0a 	lds	r24, 0x0AA5	; 0x800aa5 <__TEXT_REGION_LENGTH__+0x7f4aa5>
+ 3ce:	81 60       	ori	r24, 0x01	; 1
+ 3d0:	80 93 a5 0a 	sts	0x0AA5, r24	; 0x800aa5 <__TEXT_REGION_LENGTH__+0x7f4aa5>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:426
+
+  /* Clock selection is F_CPU/N -- which is independent of TCA */
+#if TIME_TRACKING_TIMER_DIVIDER == 1
+  _timer->CTRLA = TCB_CLKSEL_CLKDIV1_gc; /* F_CPU */
+ 3d4:	10 92 a0 0a 	sts	0x0AA0, r1	; 0x800aa0 <__TEXT_REGION_LENGTH__+0x7f4aa0>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:434
+#else
+#assert "TIME_TRACKING_TIMER_DIVIDER not supported"
+#endif
+
+  /* Enable & start */
+  _timer->CTRLA |= TCB_ENABLE_bm; /* Keep this last before enabling interrupts to ensure tracking as accurate as possible */
+ 3d8:	80 91 a0 0a 	lds	r24, 0x0AA0	; 0x800aa0 <__TEXT_REGION_LENGTH__+0x7f4aa0>
+ 3dc:	81 60       	ori	r24, 0x01	; 1
+ 3de:	80 93 a0 0a 	sts	0x0AA0, r24	; 0x800aa0 <__TEXT_REGION_LENGTH__+0x7f4aa0>
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/wiring.c:438
+
+  /*************************** ENABLE GLOBAL INTERRUPTS *************************/
+
+  sei();
+ 3e2:	78 94       	sei
+setup():
+K:\Kishor Mandlik\production code\HPL020\Final_HPL020_v.0.4_code\HPL020_v.0.4_EEPROM_Code/HPL020_v.0.4_EEPROM_Code.ino:5
+#include <EEPROM.h>
+void setup() 
+{
+  int eprom_var = 0;
+  EEPROM.write(0, eprom_var);   //TIME_SOCK_OR_TOTAL
+ 3e4:	90 e0       	ldi	r25, 0x00	; 0
+ 3e6:	80 e0       	ldi	r24, 0x00	; 0
+ 3e8:	6c df       	rcall	.-296    	; 0x2c2 <EEPROMClass::write(int, unsigned char) [clone .isra.0] [clone .constprop.1]>
+K:\Kishor Mandlik\production code\HPL020\Final_HPL020_v.0.4_code\HPL020_v.0.4_EEPROM_Code/HPL020_v.0.4_EEPROM_Code.ino:6
+  EEPROM.write(2, eprom_var);   //SAFE_VALUE_SET_DEG
+ 3ea:	82 e0       	ldi	r24, 0x02	; 2
+ 3ec:	90 e0       	ldi	r25, 0x00	; 0
+ 3ee:	69 df       	rcall	.-302    	; 0x2c2 <EEPROMClass::write(int, unsigned char) [clone .isra.0] [clone .constprop.1]>
+K:\Kishor Mandlik\production code\HPL020\Final_HPL020_v.0.4_code\HPL020_v.0.4_EEPROM_Code/HPL020_v.0.4_EEPROM_Code.ino:7
+  EEPROM.write(5, eprom_var);   //CAL_SELECT_VALUE
+ 3f0:	85 e0       	ldi	r24, 0x05	; 5
+ 3f2:	90 e0       	ldi	r25, 0x00	; 0
+ 3f4:	66 df       	rcall	.-308    	; 0x2c2 <EEPROMClass::write(int, unsigned char) [clone .isra.0] [clone .constprop.1]>
+K:\Kishor Mandlik\production code\HPL020\Final_HPL020_v.0.4_code\HPL020_v.0.4_EEPROM_Code/HPL020_v.0.4_EEPROM_Code.ino:8
+  EEPROM.write(7, eprom_var);   //SIGN
+ 3f6:	87 e0       	ldi	r24, 0x07	; 7
+ 3f8:	90 e0       	ldi	r25, 0x00	; 0
+ 3fa:	63 df       	rcall	.-314    	; 0x2c2 <EEPROMClass::write(int, unsigned char) [clone .isra.0] [clone .constprop.1]>
+K:\Kishor Mandlik\production code\HPL020\Final_HPL020_v.0.4_code\HPL020_v.0.4_EEPROM_Code/HPL020_v.0.4_EEPROM_Code.ino:9
+  EEPROM.write(8, eprom_var);   //ERROR_SET_IN_DEG_FLAG
+ 3fc:	88 e0       	ldi	r24, 0x08	; 8
+ 3fe:	90 e0       	ldi	r25, 0x00	; 0
+ 400:	60 df       	rcall	.-320    	; 0x2c2 <EEPROMClass::write(int, unsigned char) [clone .isra.0] [clone .constprop.1]>
+K:\Kishor Mandlik\production code\HPL020\Final_HPL020_v.0.4_code\HPL020_v.0.4_EEPROM_Code/HPL020_v.0.4_EEPROM_Code.ino:10
+  EEPROM.write(9, eprom_var);   //ERROR_SET_IN_FAH_FLAG
+ 402:	89 e0       	ldi	r24, 0x09	; 9
+ 404:	90 e0       	ldi	r25, 0x00	; 0
+ 406:	5d df       	rcall	.-326    	; 0x2c2 <EEPROMClass::write(int, unsigned char) [clone .isra.0] [clone .constprop.1]>
+K:\Kishor Mandlik\production code\HPL020\Final_HPL020_v.0.4_code\HPL020_v.0.4_EEPROM_Code/HPL020_v.0.4_EEPROM_Code.ino:11
+  EEPROM.write(50, eprom_var);  //RESUME_TIME
+ 408:	82 e3       	ldi	r24, 0x32	; 50
+ 40a:	90 e0       	ldi	r25, 0x00	; 0
+ 40c:	5a df       	rcall	.-332    	; 0x2c2 <EEPROMClass::write(int, unsigned char) [clone .isra.0] [clone .constprop.1]>
+K:\Kishor Mandlik\production code\HPL020\Final_HPL020_v.0.4_code\HPL020_v.0.4_EEPROM_Code/HPL020_v.0.4_EEPROM_Code.ino:12
+  EEPROM.write(55, eprom_var);  //AUTO_RESUM_SET
+ 40e:	87 e3       	ldi	r24, 0x37	; 55
+ 410:	90 e0       	ldi	r25, 0x00	; 0
+ 412:	57 df       	rcall	.-338    	; 0x2c2 <EEPROMClass::write(int, unsigned char) [clone .isra.0] [clone .constprop.1]>
+K:\Kishor Mandlik\production code\HPL020\Final_HPL020_v.0.4_code\HPL020_v.0.4_EEPROM_Code/HPL020_v.0.4_EEPROM_Code.ino:13
+  EEPROM.write(60, eprom_var);  //RESUME_TEMP
+ 414:	8c e3       	ldi	r24, 0x3C	; 60
+ 416:	90 e0       	ldi	r25, 0x00	; 0
+ 418:	54 df       	rcall	.-344    	; 0x2c2 <EEPROMClass::write(int, unsigned char) [clone .isra.0] [clone .constprop.1]>
+K:\Kishor Mandlik\production code\HPL020\Final_HPL020_v.0.4_code\HPL020_v.0.4_EEPROM_Code/HPL020_v.0.4_EEPROM_Code.ino:14
+  EEPROM.write(65, eprom_var);  //SAFE_VALUE_SET
+ 41a:	81 e4       	ldi	r24, 0x41	; 65
+ 41c:	90 e0       	ldi	r25, 0x00	; 0
+ 41e:	51 df       	rcall	.-350    	; 0x2c2 <EEPROMClass::write(int, unsigned char) [clone .isra.0] [clone .constprop.1]>
+K:\Kishor Mandlik\production code\HPL020\Final_HPL020_v.0.4_code\HPL020_v.0.4_EEPROM_Code/HPL020_v.0.4_EEPROM_Code.ino:15
+  EEPROM.write(70, eprom_var);  //ERROR_CAL1
+ 420:	86 e4       	ldi	r24, 0x46	; 70
+ 422:	90 e0       	ldi	r25, 0x00	; 0
+ 424:	4e df       	rcall	.-356    	; 0x2c2 <EEPROMClass::write(int, unsigned char) [clone .isra.0] [clone .constprop.1]>
+K:\Kishor Mandlik\production code\HPL020\Final_HPL020_v.0.4_code\HPL020_v.0.4_EEPROM_Code/HPL020_v.0.4_EEPROM_Code.ino:16
+  EEPROM.write(80, eprom_var);  //CAL2_RAW_LOW_VALUE_CONV
+ 426:	80 e5       	ldi	r24, 0x50	; 80
+ 428:	90 e0       	ldi	r25, 0x00	; 0
+ 42a:	4b df       	rcall	.-362    	; 0x2c2 <EEPROMClass::write(int, unsigned char) [clone .isra.0] [clone .constprop.1]>
+K:\Kishor Mandlik\production code\HPL020\Final_HPL020_v.0.4_code\HPL020_v.0.4_EEPROM_Code/HPL020_v.0.4_EEPROM_Code.ino:17
+  EEPROM.write(90, eprom_var);  //CAL2_RAW_HIGH_VALUE_CONV
+ 42c:	8a e5       	ldi	r24, 0x5A	; 90
+ 42e:	90 e0       	ldi	r25, 0x00	; 0
+ 430:	48 df       	rcall	.-368    	; 0x2c2 <EEPROMClass::write(int, unsigned char) [clone .isra.0] [clone .constprop.1]>
+ 432:	84 e6       	ldi	r24, 0x64	; 100
+K:\Kishor Mandlik\production code\HPL020\Final_HPL020_v.0.4_code\HPL020_v.0.4_EEPROM_Code/HPL020_v.0.4_EEPROM_Code.ino:18
+  EEPROM.write(100, eprom_var); //MASTER_LOW_CONV
+ 434:	90 e0       	ldi	r25, 0x00	; 0
+ 436:	45 df       	rcall	.-374    	; 0x2c2 <EEPROMClass::write(int, unsigned char) [clone .isra.0] [clone .constprop.1]>
+ 438:	8e e6       	ldi	r24, 0x6E	; 110
+ 43a:	90 e0       	ldi	r25, 0x00	; 0
+K:\Kishor Mandlik\production code\HPL020\Final_HPL020_v.0.4_code\HPL020_v.0.4_EEPROM_Code/HPL020_v.0.4_EEPROM_Code.ino:19
+  EEPROM.write(110, eprom_var); //MASTER_HIGH_CONV
+ 43c:	42 df       	rcall	.-380    	; 0x2c2 <EEPROMClass::write(int, unsigned char) [clone .isra.0] [clone .constprop.1]>
+main():
+ 43e:	c0 e0       	ldi	r28, 0x00	; 0
+ 440:	d0 e0       	ldi	r29, 0x00	; 0
+ 442:	20 97       	sbiw	r28, 0x00	; 0
+C:\Users\Kishor.Mandlik\AppData\Local\Arduino15\packages\MegaCoreX\hardware\megaavr\1.1.5\cores\coreX-corefiles/main.cpp:43
+  setup();
+
+  for (;;)
+  {
+    loop();
+    if (serialEventRun) serialEventRun();
+ 444:	f1 f3       	breq	.-4      	; 0x442 <__LOCK_REGION_LENGTH__+0x42>
+ 446:	0e 94 00 00 	call	0	; 0x0 <__TEXT_REGION_ORIGIN__>
+ 44a:	fb cf       	rjmp	.-10     	; 0x442 <__LOCK_REGION_LENGTH__+0x42>
+
+0000044c <_exit>:
+exit():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2278
+ 44c:	f8 94       	cli
+
+0000044e <__stop_program>:
+__stop_program():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2280
+ 44e:	ff cf       	rjmp	.-2      	; 0x44e <__stop_program>
