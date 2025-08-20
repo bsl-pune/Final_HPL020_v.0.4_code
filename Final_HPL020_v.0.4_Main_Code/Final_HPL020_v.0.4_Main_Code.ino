@@ -2,7 +2,7 @@
 #include "Ext_var.h"
 #include <EEPROM.h>
 
-long data = 0;
+long data = 0; //check github
 void AUTO_UPDATE();
 void DATA_UPDATE();
 void DISP_REFRESH();
